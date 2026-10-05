@@ -1,0 +1,92 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int scor = 0;
+    char r;
+
+    cout << "1. Cate continente exista?\nA. 5\nB. 6\nC. 7\nD. 8\nRaspuns: ";
+    cin >> r;
+    if (r == 'C' || r == 'c') scor++;
+
+    cout << "2. Capitala Romaniei?\nA. Cluj\nB. Bucuresti\nC. Iasi\nD. Brasov\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "3. Cel mai mare ocean?\nA. Atlantic\nB. Indian\nC. Pacific\nD. Arctic\nRaspuns: ";
+    cin >> r;
+    if (r == 'C' || r == 'c') scor++;
+
+    cout << "4. Cat face 7 * 8?\nA. 54\nB. 56\nC. 58\nD. 64\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "5. Cate zile are un an bisect?\nA. 365\nB. 366\nC. 364\nD. 367\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "6. Cel mai lung rau din Romania?\nA. Olt\nB. Mures\nC. Dunarea\nD. Prut\nRaspuns: ";
+    cin >> r;
+    if (r == 'C' || r == 'c') scor++;
+
+    cout << "7. Formula chimica a apei?\nA. CO2\nB. H2O\nC. O2\nD. NaCl\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "8. Planeta cea mai apropiata de Soare?\nA. Venus\nB. Mercur\nC. Marte\nD. Pamant\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "9. Cine a scris 'Luceafarul'?\nA. Eminescu\nB. Creanga\nC. Caragiale\nD. Sadoveanu\nRaspuns: ";
+    cin >> r;
+    if (r == 'A' || r == 'a') scor++;
+
+    cout << "10. Radacina patrata din 144?\nA. 10\nB. 11\nC. 12\nD. 14\nRaspuns: ";
+    cin >> r;
+    if (r == 'C' || r == 'c') scor++;
+
+    cout << "11. Cate laturi are un hexagon?\nA. 5\nB. 6\nC. 7\nD. 8\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "12. Cel mai mare mamifer?\nA. Elefantul\nB. Girafa\nC. Balena albastra\nD. Hipopotamul\nRaspuns: ";
+    cin >> r;
+    if (r == 'C' || r == 'c') scor++;
+
+    cout << "13. In ce an a fost Revolutia romana?\nA. 1987\nB. 1989\nC. 1991\nD. 1990\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "14. Cine a creat C++?\nA. Gosling\nB. van Rossum\nC. Stroustrup\nD. Ritchie\nRaspuns: ";
+    cin >> r;
+    if (r == 'C' || r == 'c') scor++;
+
+    cout << "15. Cate grade are un unghi drept?\nA. 45\nB. 90\nC. 180\nD. 360\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "16. Capitala Frantei?\nA. Lyon\nB. Marsilia\nC. Paris\nD. Nisa\nRaspuns: ";
+    cin >> r;
+    if (r == 'C' || r == 'c') scor++;
+
+    cout << "17. Cel mai inalt varf din Romania?\nA. Omu\nB. Moldoveanu\nC. Negoiu\nD. Ceahlau\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "18. Cate minute are o ora?\nA. 50\nB. 60\nC. 90\nD. 100\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "19. Gazul cel mai frecvent in atmosfera?\nA. Oxigen\nB. Azot\nC. CO2\nD. Hidrogen\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "20. Cat face 15 + 27?\nA. 41\nB. 42\nC. 43\nD. 52\nRaspuns: ";
+    cin >> r;
+    if (r == 'B' || r == 'b') scor++;
+
+    cout << "\nScor: " << scor << "/20\n";
+    cout << "Procent: " << scor * 5 << "%\n";
+
+    return 0;
+}
